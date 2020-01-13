@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="weather-wrapper">
+  <image src="/images/background/sunny.png" mode="scaleToFill" class="bgimg"></image>
+  <view class="location-text">{{city}}·{{location_text}}</view>
+  <view class="temp">{{temperature}}</view>
+  <view class="weather">
+    <text class="weather_txt">{{now_weather}}</text>
+    <text class="air_label">空气{{now_air}}</text>
+  </view>
+  <view class="day-weather">
+    <view class="day-text">{{today}}</view>
+    <view class="temp-text">{{today_weather}}</view>
+  </view>
+</view>
